@@ -66,7 +66,7 @@ statistics.2001:7c0:2800::3:19 time2.uni-konstanz.de/IPv4
 
 # FR NTS
 statistics.15.237.97.214 paris.time.system76.com/IPv4
-statistics.paris.time.system76.com paris.time.system76.com/IPv6
+statistics.2a05:d012:3ca:8100:983c:cae0:5e49:4d81 paris.time.system76.com/IPv6
 
 # NL NTS
 statistics.94.198.159.11 nts.time.nl/IPv4
