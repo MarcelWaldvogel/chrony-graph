@@ -29,6 +29,7 @@ statistics.212.51.144.44 ntp01.maillink.ch/IPv4
 statistics.2a02:168:420b:d::7b:12 ntp01.maillink.ch/IPv6
 statistics.212.51.144.46 ntp02.maillink.ch/IPv4
 statistics.2a02:168:420b:4::7b:12 ntp02.maillink.ch/IPv6
+statistics.212.51.144.47 ntp03.maillink.ch/IPv4
 statistics.2a02:168:420b:4::7b:13 ntp03.maillink.ch/IPv6
 
 # CH
