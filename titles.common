@@ -3,7 +3,7 @@
 ###
 
 # CH NTS
-statistics.109.202.196.249 ntp.trifence.ch/IPv4
+statistics.82.197.162.18 ntp.trifence.ch/IPv4
 statistics.2a02:168:2000:1f::a13 ntp.trifence.ch/IPv6.s
 statistics.2a02:168:2000:1f:6eb3:11ff:fe20:df86 ntp.trifence.ch/IPv6.l
 
