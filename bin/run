@@ -1,4 +1,5 @@
 #!/bin/bash
+echo -n "*** Run started at "; date
 if [ "x$1" = "x--plus-svg" ]; then
   export GNUPLOT_TERMINALS="png svg"
   shift
@@ -81,4 +82,7 @@ fi
 rm -f remote-statistics.*
 ../bin/plot
 ../bin/index >index.html
-../bin/copy-to-website
+if [ -x ../bin/copy-to-website ]; then
+  ../bin/copy-to-website
+fi
+echo -n "*** Run finished at "; date
