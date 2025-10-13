@@ -1,5 +1,4 @@
 #!/bin/bash
-echo -n "*** Run started at "; date
 if [ "x$1" = "x--plus-svg" ]; then
   export GNUPLOT_TERMINALS="png svg"
   shift
@@ -14,6 +13,7 @@ else
   DAYS=7
 fi
 
+echo -n "*** Run (days=${DAYS}) started at "; date
 if [ -x startime ]; then
   STARTIME=`./startime`
 else
@@ -85,4 +85,5 @@ rm -f remote-statistics.*
 if [ -x ../bin/copy-to-website ]; then
   ../bin/copy-to-website
 fi
-echo -n "*** Run finished at "; date
+
+echo -n "*** Run (days=${DAYS}) finished at "; date
