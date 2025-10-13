@@ -37,7 +37,7 @@ do
   set lmargin 12
   set rmargin 12
   plot \
-  "tracking.log" using 1:4 title "local clock error" with linespoints, \
+  "tracking.log" using 1:4 title "local clock error" with linespoints bins=600 binvalue=avg, \
   $NINETYNINE title "99th percentile", \
   $NINETYFIVE title "95th percentile", \
   $FIVE title "5th percentile", \
@@ -78,7 +78,7 @@ EOF
   set lmargin 12
   set rmargin 12
   plot \
-  "tracking.log" using 1:(\$6 * 1000000) title "local clock offset" with linespoints, \
+  "tracking.log" using 1:(\$6 * 1000000) title "local clock offset" with linespoints bins=600 binvalue=avg, \
   $NINETYNINE title "99th percentile", \
   $NINETYFIVE title "95th percentile", \
   $FIVE title "5th percentile", \
