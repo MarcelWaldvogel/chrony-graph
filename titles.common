@@ -68,9 +68,9 @@ statistics.2001:638:a000:1123:123::4 ntp3.ipv6.fau.de
 
 # DE
 statistics.134.34.242.18 time1.uni-konstanz.de/IPv4
-statistics.2001:7c0:2800::31:18 time1.uni-konstanz.de/IPv4
+statistics.2001:7c0:2880:2010::31:18 time1.uni-konstanz.de/IPv4
 statistics.134.34.242.19 time2.uni-konstanz.de/IPv4
-statistics.2001:7c0:2800::31:19 time2.uni-konstanz.de/IPv4
+statistics.2001:7c0:2880:2010::31:19 time2.uni-konstanz.de/IPv4
 
 # FR NTS
 statistics.15.237.97.214 paris.time.system76.com/IPv4
