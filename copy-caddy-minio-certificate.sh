@@ -19,7 +19,7 @@ CONFDIR=/etc/chrony/conf.d
 CONF="${CONFDIR}/nts-server.conf"
 
 # Try to create/renew the certificate, if needed
-curl "https://${THISHOST}" > /dev/null
+curl -s -q "https://${THISHOST}" > /dev/null
 
 # Set up configuration on first run
 if [ ! -r "${CONF}" ]
